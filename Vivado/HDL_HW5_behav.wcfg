@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="HDL_HW4_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="HDL_HW4_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="366042588383fs"></ZoomStartTime>
+      <ZoomEndTime time="366544517173fs"></ZoomEndTime>
+      <Cursor1Time time="366260000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="58" />
+   <wave_markers>
+      <marker time="3472875000000" label="" />
+      <marker time="100003472875000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/HDL_HW4_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/write_flag" type="logic">
+      <obj_property name="ElementShortName">write_flag</obj_property>
+      <obj_property name="ObjectShortName">write_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/sobel_data_V" type="array">
+      <obj_property name="ElementShortName">sobel_data_V[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sobel_data_V[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/sobel_data_H" type="array">
+      <obj_property name="ElementShortName">sobel_data_H[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sobel_data_H[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/pass_cnt" type="array">
+      <obj_property name="ElementShortName">pass_cnt[18:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_cnt[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_in" type="array">
+      <obj_property name="ElementShortName">img_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_gray" type="array">
+      <obj_property name="ElementShortName">img_gray[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_gray[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/offset" type="array">
+      <obj_property name="ElementShortName">offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_h" type="array">
+      <obj_property name="ElementShortName">img_h[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_h[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_w" type="array">
+      <obj_property name="ElementShortName">img_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_out_V" type="array">
+      <obj_property name="ElementShortName">img_out_V[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_out_V[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/img_out_H" type="array">
+      <obj_property name="ElementShortName">img_out_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">img_out_H[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/idx" type="array">
+      <obj_property name="ElementShortName">idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/header" type="array">
+      <obj_property name="ElementShortName">header[31:0]</obj_property>
+      <obj_property name="ObjectShortName">header[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/h" type="array">
+      <obj_property name="ElementShortName">h[31:0]</obj_property>
+      <obj_property name="ObjectShortName">h[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/trans_cnt" type="array">
+      <obj_property name="ElementShortName">trans_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">trans_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/fp_r_C1W" type="array">
+      <obj_property name="ElementShortName">fp_r_C1W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_r_C1W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/fp_r_C1B" type="array">
+      <obj_property name="ElementShortName">fp_r_C1B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_r_C1B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/fp_r_C2W" type="array">
+      <obj_property name="ElementShortName">fp_r_C2W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_r_C2W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/fp_r_C2B" type="array">
+      <obj_property name="ElementShortName">fp_r_C2B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_r_C2B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/zzz" type="array">
+      <obj_property name="ElementShortName">zzz[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zzz[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/test_cnt" type="array">
+      <obj_property name="ElementShortName">test_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/R_weight" type="array">
+      <obj_property name="ElementShortName">R_weight[0:575][15:0]</obj_property>
+      <obj_property name="ObjectShortName">R_weight[0:575][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/G_weight" type="array">
+      <obj_property name="ElementShortName">G_weight[0:575][15:0]</obj_property>
+      <obj_property name="ObjectShortName">G_weight[0:575][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/B_weight" type="array">
+      <obj_property name="ElementShortName">B_weight[0:575][15:0]</obj_property>
+      <obj_property name="ObjectShortName">B_weight[0:575][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/c1_weight" type="array">
+      <obj_property name="ElementShortName">c1_weight[0:1727][15:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_weight[0:1727][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/c1_bias" type="array">
+      <obj_property name="ElementShortName">c1_bias[0:63][15:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_bias[0:63][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/c2_bias" type="array">
+      <obj_property name="ElementShortName">c2_bias[0:63][15:0]</obj_property>
+      <obj_property name="ObjectShortName">c2_bias[0:63][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/weight_cnt" type="array">
+      <obj_property name="ElementShortName">weight_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/w_cnt" type="array">
+      <obj_property name="ElementShortName">w_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/w_cnt2" type="array">
+      <obj_property name="ElementShortName">w_cnt2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_cnt2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/sobel_data_V" type="array">
+      <obj_property name="ElementShortName">sobel_data_V[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sobel_data_V[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/sobel_data_H" type="array">
+      <obj_property name="ElementShortName">sobel_data_H[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sobel_data_H[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/padding_data_1" type="array">
+      <obj_property name="ElementShortName">padding_data_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">padding_data_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/padding_data_2" type="array">
+      <obj_property name="ElementShortName">padding_data_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">padding_data_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/padding_data_3" type="array">
+      <obj_property name="ElementShortName">padding_data_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">padding_data_3[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/padding_data_4" type="array">
+      <obj_property name="ElementShortName">padding_data_4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">padding_data_4[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/pass_cnt" type="array">
+      <obj_property name="ElementShortName">pass_cnt[18:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_cnt[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/write_flag" type="logic">
+      <obj_property name="ElementShortName">write_flag</obj_property>
+      <obj_property name="ObjectShortName">write_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/bmp_lyr1_answer" type="array">
+      <obj_property name="ElementShortName">bmp_lyr1_answer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bmp_lyr1_answer[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/lyr_2_sum" type="array">
+      <obj_property name="ElementShortName">lyr_2_sum[35:0]</obj_property>
+      <obj_property name="ObjectShortName">lyr_2_sum[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/weight" type="array">
+      <obj_property name="ElementShortName">weight[63:0]</obj_property>
+      <obj_property name="ObjectShortName">weight[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/rt" type="array">
+      <obj_property name="ElementShortName">rt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/bias" type="array">
+      <obj_property name="ElementShortName">bias[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bias[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/file" type="array">
+      <obj_property name="ElementShortName">file[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/file_2" type="array">
+      <obj_property name="ElementShortName">file_2[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_2[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/filename" type="array">
+      <obj_property name="ElementShortName">filename[999:0]</obj_property>
+      <obj_property name="ObjectShortName">filename[999:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/l1_file" type="array">
+      <obj_property name="ElementShortName">l1_file[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">l1_file[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/l1_img_filename" type="array">
+      <obj_property name="ElementShortName">l1_img_filename[999:0]</obj_property>
+      <obj_property name="ObjectShortName">l1_img_filename[999:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/NUM_PU" type="array">
+      <obj_property name="ElementShortName">NUM_PU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_PU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDL_HW4_TB/NUM_L1_img" type="array">
+      <obj_property name="ElementShortName">NUM_L1_img[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_L1_img[31:0]</obj_property>
+   </wvobject>
+</wave_config>
